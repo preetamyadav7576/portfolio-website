@@ -25,7 +25,7 @@ Modern Responsive Portfolio Website built using HTML, CSS & JavaScript
 
 # 🚀 Live Demo
 
-https://yourportfolio.netlify.app
+https://preetamyadavportfolio.netlify.app/
 
 ---
 
