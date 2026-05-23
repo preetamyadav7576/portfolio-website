@@ -275,52 +275,231 @@ transform:translateY(0);
 }
 }
 
-@media(max-width:900px){
 
-nav{
-flex-direction:column;
-gap:20px;
-}
+
+   /* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1024px){
 
 .hero-container{
 flex-direction:column-reverse;
 text-align:center;
+gap:40px;
 }
 
 .hero-text h1{
-font-size:45px;
+font-size:50px;
+line-height:1.2;
 }
 
-.hero-image img{
-width:280px;
+.hero-text p{
+font-size:17px;
 }
 
 .buttons{
 justify-content:center;
 }
 
+.project{
+flex-direction:column;
+text-align:center;
 }
 
-@media(max-width:500px){
+.project img{
+width:100%;
+max-width:350px;
+}
+
+.skills-grid{
+justify-content:center;
+}
+
+}
+
+
+/* Tablet Devices */
+
+@media screen and (max-width: 768px){
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
 
 .hero{
 padding:20px 5%;
 }
 
+.hero-container{
+padding-top:40px;
+}
+
 .hero-text h1{
-font-size:35px;
+font-size:42px;
+}
+
+.hero-text h3{
+font-size:18px;
+}
+
+.hero-text p{
+font-size:16px;
+line-height:1.7;
+}
+
+.hero-image img{
+width:260px;
+max-width:100%;
+}
+
+section{
+padding:70px 5%;
+}
+
+section h2{
+font-size:34px;
+}
+
+.project{
+padding:20px;
+}
+
+.contact-box{
+padding:20px;
+}
+
+.footer h2{
+font-size:32px;
+}
+
+.footer p{
+font-size:15px;
+}
+
+.social-links{
+gap:12px;
+}
+
+}
+
+
+/* Mobile Devices */
+
+@media screen and (max-width: 500px){
+
+.logo{
+font-size:24px;
+text-align:center;
 }
 
 .nav-links{
-gap:15px;
 font-size:14px;
-flex-wrap:wrap;
-justify-content:center;
+gap:12px;
+}
+
+.hero{
+min-height:auto;
+padding:20px 5%;
+}
+
+.hero-text h1{
+font-size:34px;
+}
+
+.hero-text p{
+font-size:15px;
+}
+
+.hero-image img{
+width:220px;
+border-radius:18px;
+}
+
+.buttons{
+flex-direction:column;
+align-items:center;
 }
 
 .btn{
-padding:12px 20px;
+width:100%;
+max-width:260px;
+text-align:center;
 font-size:14px;
+padding:12px 18px;
+}
+
+section h2{
+font-size:28px;
+}
+
+.skill-card{
+width:100%;
+text-align:center;
+}
+
+.project{
+gap:20px;
+padding:18px;
+}
+
+.project img{
+width:100%;
+}
+
+.project h3{
+font-size:22px;
+}
+
+.contact-box p{
+font-size:14px;
+word-break:break-word;
+}
+
+.social-links{
+flex-direction:column;
+align-items:center;
+}
+
+.social-links a{
+width:90%;
+text-align:center;
+}
+
+.footer{
+padding:50px 15px;
+}
+
+}
+
+
+/* Extra Small Devices */
+
+@media screen and (max-width: 350px){
+
+.hero-text h1{
+font-size:28px;
+}
+
+.hero-text p{
+font-size:14px;
+}
+
+.nav-links{
+font-size:12px;
+}
+
+.btn{
+font-size:13px;
+}
+
+section h2{
+font-size:24px;
 }
 
 }
